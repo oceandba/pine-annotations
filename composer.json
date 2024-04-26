@@ -1,9 +1,14 @@
 {
-    "name": "larachimp/pine-annotations",
+    "name": "oceandba/pine-annotations",
     "description": "Easing annotations reading in Laravel",
     "keywords": ["php", "Laravel", "annotations", "reader"],
     "license": "MIT",
     "authors": [
+        {
+            "name": "Kenan Lafrance",
+            "email": "your-email@example.com",
+            "role": "Fork Maintainer"
+        },
         {
             "name": "Percy Mamedy",
             "email": "percymamedy@gmail.com"
@@ -13,8 +18,8 @@
         "php": "^7.3|^8.0",
         "doctrine/annotations": "^1.13",
         "doctrine/cache": "^2.1",
-        "illuminate/support": "^8.0",
-        "symfony/finder": "^5.0"
+        "illuminate/support": "^9.0",
+        "symfony/finder": "^6.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.2",
